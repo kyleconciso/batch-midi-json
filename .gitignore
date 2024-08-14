@@ -1,4 +1,4 @@
 node_modules/
 
-midi/
-json/
+midi/*
+json/*
