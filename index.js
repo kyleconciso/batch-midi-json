@@ -25,6 +25,8 @@ try {
 
 const files = fs.readdirSync(midiFolder).forEach(file => {
 	var fileDir = path.join(midiFolder, file);
+	var ext = path.parse(fileDir).ext;
+	if ((ext!=".mid")&&(ext!=".midi")) {return;}
 	var data = fs.readFileSync(fileDir);
 	var midi = new Midi(data);
 	var outputFileDir = path.join(jsonFolder, path.parse(file).name+".json")
