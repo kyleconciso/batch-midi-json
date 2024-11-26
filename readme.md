@@ -2,7 +2,7 @@
 
 **Batch convert MIDI files to JSON files**
 
-This script effortlessly transforms your MIDI files into JSON format using ToneJS.
+This script transforms your MIDI files into JSON format using ToneJS.
 
 ### Getting Started
 1. **Clone the repository:** 
